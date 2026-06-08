@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@tssuite/ts_testproject_2':
-        specifier: file:../ts_testproject_2
-        version: file:../ts_testproject_2
+        specifier: git+git@github.com:tssuite/ts_testproject_2.git#ts_chain
+        version: https://codeload.github.com/tssuite/ts_testproject_2/tar.gz/49a94be8ddde1530a8b4e63023d8bcb4bd6f2a57
     devDependencies:
       '@types/node':
         specifier: ^25.9.1
@@ -316,12 +316,14 @@ packages:
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
 
-  '@tssuite/ts_testproject_2@file:../ts_testproject_2':
-    resolution: {directory: ../ts_testproject_2, type: directory}
+  '@tssuite/ts_testproject_2@https://codeload.github.com/tssuite/ts_testproject_2/tar.gz/49a94be8ddde1530a8b4e63023d8bcb4bd6f2a57':
+    resolution: {gitHosted: true, tarball: https://codeload.github.com/tssuite/ts_testproject_2/tar.gz/49a94be8ddde1530a8b4e63023d8bcb4bd6f2a57}
+    version: 0.0.2
     engines: {node: '>=22.14.0'}
 
-  '@tssuite/ts_testproject_3@file:../ts_testproject_3':
-    resolution: {directory: ../ts_testproject_3, type: directory}
+  '@tssuite/ts_testproject_3@https://codeload.github.com/tssuite/ts_testproject_3/tar.gz/d9932f2f227168da4089c6dd8091552769a17cd7':
+    resolution: {gitHosted: true, tarball: https://codeload.github.com/tssuite/ts_testproject_3/tar.gz/d9932f2f227168da4089c6dd8091552769a17cd7}
+    version: 0.0.3
     engines: {node: '>=22.14.0'}
 
   '@tybys/wasm-util@0.10.2':
@@ -1634,11 +1636,11 @@ snapshots:
 
   '@standard-schema/spec@1.1.0': {}
 
-  '@tssuite/ts_testproject_2@file:../ts_testproject_2':
+  '@tssuite/ts_testproject_2@https://codeload.github.com/tssuite/ts_testproject_2/tar.gz/49a94be8ddde1530a8b4e63023d8bcb4bd6f2a57':
     dependencies:
-      '@tssuite/ts_testproject_3': file:../ts_testproject_3
+      '@tssuite/ts_testproject_3': https://codeload.github.com/tssuite/ts_testproject_3/tar.gz/d9932f2f227168da4089c6dd8091552769a17cd7
 
-  '@tssuite/ts_testproject_3@file:../ts_testproject_3': {}
+  '@tssuite/ts_testproject_3@https://codeload.github.com/tssuite/ts_testproject_3/tar.gz/d9932f2f227168da4089c6dd8091552769a17cd7': {}
 
   '@tybys/wasm-util@0.10.2':
     dependencies:

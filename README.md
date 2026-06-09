@@ -26,3 +26,5 @@ found in the LICENSE file in the root of this package.
 <!-- E2E touch: gg one commit/push/publish on 2026-06-07 -->
 
 <!-- ts_e2e_multi: gg multi commit/review/publish touch on ts_testproject_1 -->
+
+<!-- gg_typescript_bugfixes v3 -->

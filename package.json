@@ -1,6 +1,6 @@
 {
   "name": "@tssuite/ts_testproject_1",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "tssuite ts_testproject_1 — gg one E2E test project",
   "homepage": "https://github.com/tssuite/ts_testproject_1",
   "bugs": "https://github.com/tssuite/ts_testproject_1/issues",
@@ -28,7 +28,7 @@
     "updateGoldens": "cross-env UPDATE_GOLDENS=true pnpm test"
   },
   "dependencies": {
-    "@tssuite/ts_testproject_2": "git+ssh://git@github.com/tssuite/ts_testproject_2.git#semver:^0.1.1"
+    "@tssuite/ts_testproject_2": "git+ssh://git@github.com/tssuite/ts_testproject_2.git#semver:^0.1.2"
   },
   "devDependencies": {
     "@types/node": "^25.9.1",

@@ -8,7 +8,7 @@ importers:
 
   .:
     dependencies:
-      '@tssuite/ts_testproject_2':
+      '@tssuite/testproject_2':
         specifier: file:../testproject_2
         version: file:../testproject_2
     devDependencies:
@@ -316,11 +316,11 @@ packages:
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
 
-  '@tssuite/ts_testproject_2@file:../testproject_2':
+  '@tssuite/testproject_2@file:../testproject_2':
     resolution: {directory: ../testproject_2, type: directory}
     engines: {node: '>=22.14.0'}
 
-  '@tssuite/ts_testproject_3@file:../testproject_3':
+  '@tssuite/testproject_3@file:../testproject_3':
     resolution: {directory: ../testproject_3, type: directory}
     engines: {node: '>=22.14.0'}
 
@@ -1635,11 +1635,11 @@ snapshots:
 
   '@standard-schema/spec@1.1.0': {}
 
-  '@tssuite/ts_testproject_2@file:../testproject_2':
+  '@tssuite/testproject_2@file:../testproject_2':
     dependencies:
-      '@tssuite/ts_testproject_3': file:../testproject_3
+      '@tssuite/testproject_3': file:../testproject_3
 
-  '@tssuite/ts_testproject_3@file:../testproject_3': {}
+  '@tssuite/testproject_3@file:../testproject_3': {}
 
   '@tybys/wasm-util@0.10.2':
     dependencies:

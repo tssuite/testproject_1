@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@tssuite/testproject_2':
-        specifier: git+https://github.com/tssuite/testproject_2.git#rename_testproject_packages
-        version: https://codeload.github.com/tssuite/testproject_2/tar.gz/2f6aa79e578cd28eacc554d5aa44e160962d41ea
+        specifier: git+https://github.com/tssuite/testproject_2.git#semver:^0.1.3
+        version: https://codeload.github.com/tssuite/testproject_2/tar.gz/3b543da238e90d4bcc0989e959a070a492e220aa
     devDependencies:
       '@types/node':
         specifier: ^25.9.1
@@ -316,14 +316,14 @@ packages:
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
 
-  '@tssuite/testproject_2@https://codeload.github.com/tssuite/testproject_2/tar.gz/2f6aa79e578cd28eacc554d5aa44e160962d41ea':
-    resolution: {gitHosted: true, tarball: https://codeload.github.com/tssuite/testproject_2/tar.gz/2f6aa79e578cd28eacc554d5aa44e160962d41ea}
-    version: 0.1.2
+  '@tssuite/testproject_2@https://codeload.github.com/tssuite/testproject_2/tar.gz/3b543da238e90d4bcc0989e959a070a492e220aa':
+    resolution: {gitHosted: true, integrity: sha512-/kdxuba4dSGcM+Km9ejjbeqEy3uIEC1YliPCZ8XsyLv/xW4aRc9HC6TtHG6x/0kBp+r7PdhU/UdQgHitTDFNHQ==, tarball: https://codeload.github.com/tssuite/testproject_2/tar.gz/3b543da238e90d4bcc0989e959a070a492e220aa}
+    version: 0.1.3
     engines: {node: '>=22.14.0'}
 
-  '@tssuite/testproject_3@https://codeload.github.com/tssuite/testproject_3/tar.gz/c6435176bf1e7f5ca7424ec43b3fdda609965c17':
-    resolution: {gitHosted: true, tarball: https://codeload.github.com/tssuite/testproject_3/tar.gz/c6435176bf1e7f5ca7424ec43b3fdda609965c17}
-    version: 0.1.4
+  '@tssuite/testproject_3@https://codeload.github.com/tssuite/testproject_3/tar.gz/49b2989f23c377189ad1a635fce8e487f9b257dd':
+    resolution: {gitHosted: true, tarball: https://codeload.github.com/tssuite/testproject_3/tar.gz/49b2989f23c377189ad1a635fce8e487f9b257dd}
+    version: 0.1.5
     engines: {node: '>=22.14.0'}
 
   '@tybys/wasm-util@0.10.2':
@@ -1637,11 +1637,11 @@ snapshots:
 
   '@standard-schema/spec@1.1.0': {}
 
-  '@tssuite/testproject_2@https://codeload.github.com/tssuite/testproject_2/tar.gz/2f6aa79e578cd28eacc554d5aa44e160962d41ea':
+  '@tssuite/testproject_2@https://codeload.github.com/tssuite/testproject_2/tar.gz/3b543da238e90d4bcc0989e959a070a492e220aa':
     dependencies:
-      '@tssuite/testproject_3': https://codeload.github.com/tssuite/testproject_3/tar.gz/c6435176bf1e7f5ca7424ec43b3fdda609965c17
+      '@tssuite/testproject_3': https://codeload.github.com/tssuite/testproject_3/tar.gz/49b2989f23c377189ad1a635fce8e487f9b257dd
 
-  '@tssuite/testproject_3@https://codeload.github.com/tssuite/testproject_3/tar.gz/c6435176bf1e7f5ca7424ec43b3fdda609965c17': {}
+  '@tssuite/testproject_3@https://codeload.github.com/tssuite/testproject_3/tar.gz/49b2989f23c377189ad1a635fce8e487f9b257dd': {}
 
   '@tybys/wasm-util@0.10.2':
     dependencies:

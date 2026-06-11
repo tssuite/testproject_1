@@ -28,7 +28,7 @@
     "updateGoldens": "cross-env UPDATE_GOLDENS=true pnpm test"
   },
   "dependencies": {
-    "@tssuite/testproject_2": "file:../testproject_2"
+    "@tssuite/testproject_2": "git+https://github.com/tssuite/testproject_2.git#rename_testproject_packages"
   },
   "devDependencies": {
     "@types/node": "^25.9.1",

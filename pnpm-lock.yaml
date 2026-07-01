@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@tssuite/testproject_2':
-        specifier: ^0.1.3
-        version: 0.1.3
+        specifier: 0.1.4
+        version: 0.1.4
     devDependencies:
       '@types/node':
         specifier: ^25.9.1
@@ -316,12 +316,12 @@ packages:
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
 
-  '@tssuite/testproject_2@0.1.3':
-    resolution: {integrity: sha512-0iKwulPpusrB2zQG5izvQcagxtOmXcwaAO19t17rDo4avnJwP5CfAeBlejQUgryJjC/lajdcNkXwWZL5NOGwZA==}
+  '@tssuite/testproject_2@0.1.4':
+    resolution: {integrity: sha512-SEI2l2jvb3EjKOJ1LcKcGRe71EL/38h0Xps2jivxEp/DGcNQ/7pHdd2ZKtTOjkAWla8DgiMQfOOKx5l3NJt+LQ==}
     engines: {node: '>=22.14.0'}
 
-  '@tssuite/testproject_3@0.1.5':
-    resolution: {integrity: sha512-nK3/tatwvHXg0Ir9qKnGol94edaNvI6zO4r2uRm2LiTFl8KGMnRvcDqOAjhPl2gyynnWmc2pwpkhB8xSdGtF2g==}
+  '@tssuite/testproject_3@0.1.7':
+    resolution: {integrity: sha512-p1PDp2AkixlUc3rxV2TT2m2iRKysP4syYtBVR2YKnh8uZWEob9rZTA8AW3QnQmIUFezw7WNKQeAQFyb4CyDWBA==}
     engines: {node: '>=22.14.0'}
 
   '@tybys/wasm-util@0.10.2':
@@ -1635,11 +1635,11 @@ snapshots:
 
   '@standard-schema/spec@1.1.0': {}
 
-  '@tssuite/testproject_2@0.1.3':
+  '@tssuite/testproject_2@0.1.4':
     dependencies:
-      '@tssuite/testproject_3': 0.1.5
+      '@tssuite/testproject_3': 0.1.7
 
-  '@tssuite/testproject_3@0.1.5': {}
+  '@tssuite/testproject_3@0.1.7': {}
 
   '@tybys/wasm-util@0.10.2':
     dependencies:

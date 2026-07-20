@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@tssuite/testproject_2':
-        specifier: link:../testproject_2
-        version: link:../testproject_2
+        specifier: git+https://github.com/tssuite/testproject_2.git#typescript-test-001
+        version: https://codeload.github.com/tssuite/testproject_2/tar.gz/1111404e8a3c0f7b69ee928f57dbf71788f71c00
     devDependencies:
       '@types/node':
         specifier: ^25.9.1
@@ -315,6 +315,16 @@ packages:
 
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
+
+  '@tssuite/testproject_2@https://codeload.github.com/tssuite/testproject_2/tar.gz/1111404e8a3c0f7b69ee928f57dbf71788f71c00':
+    resolution: {gitHosted: true, integrity: sha512-VbwxgE2KOClqMqjEOMzzyUz2unMWORAJy3n8RdPiDtgOQc/hp9I/EtGN4ueXj4ueTtqAbtZqhk6QyrvNRV9rnQ==, tarball: https://codeload.github.com/tssuite/testproject_2/tar.gz/1111404e8a3c0f7b69ee928f57dbf71788f71c00}
+    version: 0.1.4
+    engines: {node: '>=22.14.0'}
+
+  '@tssuite/testproject_3@https://codeload.github.com/tssuite/testproject_3/tar.gz/5136b46a7b2247a38a8b4f6629eba1319c3d0134':
+    resolution: {gitHosted: true, tarball: https://codeload.github.com/tssuite/testproject_3/tar.gz/5136b46a7b2247a38a8b4f6629eba1319c3d0134}
+    version: 0.1.7
+    engines: {node: '>=22.14.0'}
 
   '@tybys/wasm-util@0.10.2':
     resolution: {integrity: sha512-RoBvJ2X0wuKlWFIjrwffGw1IqZHKQqzIchKaadZZfnNpsAYp2mM0h36JtPCjNDAHGgYez/15uMBpfGwchhiMgg==}
@@ -1627,6 +1637,12 @@ snapshots:
   '@sindresorhus/base62@1.0.0': {}
 
   '@standard-schema/spec@1.1.0': {}
+
+  '@tssuite/testproject_2@https://codeload.github.com/tssuite/testproject_2/tar.gz/1111404e8a3c0f7b69ee928f57dbf71788f71c00':
+    dependencies:
+      '@tssuite/testproject_3': https://codeload.github.com/tssuite/testproject_3/tar.gz/5136b46a7b2247a38a8b4f6629eba1319c3d0134
+
+  '@tssuite/testproject_3@https://codeload.github.com/tssuite/testproject_3/tar.gz/5136b46a7b2247a38a8b4f6629eba1319c3d0134': {}
 
   '@tybys/wasm-util@0.10.2':
     dependencies:

@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@tssuite/testproject_2':
-        specifier: 0.1.4
-        version: 0.1.4
+        specifier: link:../testproject_2
+        version: link:../testproject_2
     devDependencies:
       '@types/node':
         specifier: ^25.9.1
@@ -315,14 +315,6 @@ packages:
 
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
-
-  '@tssuite/testproject_2@0.1.4':
-    resolution: {integrity: sha512-SEI2l2jvb3EjKOJ1LcKcGRe71EL/38h0Xps2jivxEp/DGcNQ/7pHdd2ZKtTOjkAWla8DgiMQfOOKx5l3NJt+LQ==}
-    engines: {node: '>=22.14.0'}
-
-  '@tssuite/testproject_3@0.1.7':
-    resolution: {integrity: sha512-p1PDp2AkixlUc3rxV2TT2m2iRKysP4syYtBVR2YKnh8uZWEob9rZTA8AW3QnQmIUFezw7WNKQeAQFyb4CyDWBA==}
-    engines: {node: '>=22.14.0'}
 
   '@tybys/wasm-util@0.10.2':
     resolution: {integrity: sha512-RoBvJ2X0wuKlWFIjrwffGw1IqZHKQqzIchKaadZZfnNpsAYp2mM0h36JtPCjNDAHGgYez/15uMBpfGwchhiMgg==}
@@ -1206,6 +1198,7 @@ packages:
   tsconfck@3.1.6:
     resolution: {integrity: sha512-ks6Vjr/jEw0P1gmOVwutM3B7fWxoWBL2KRDb1JfqGVawBmO5UsvmWOQFGHBPl5yxYz4eERr19E6L7NMv+Fej4w==}
     engines: {node: ^18 || >=20}
+    deprecated: unmaintained
     hasBin: true
     peerDependencies:
       typescript: ^5.0.0
@@ -1634,12 +1627,6 @@ snapshots:
   '@sindresorhus/base62@1.0.0': {}
 
   '@standard-schema/spec@1.1.0': {}
-
-  '@tssuite/testproject_2@0.1.4':
-    dependencies:
-      '@tssuite/testproject_3': 0.1.7
-
-  '@tssuite/testproject_3@0.1.7': {}
 
   '@tybys/wasm-util@0.10.2':
     dependencies:
